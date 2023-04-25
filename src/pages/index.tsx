@@ -1,3 +1,4 @@
+import Main from 'components/Main'
 import Head from 'next/head'
 
 type Props = {
@@ -5,11 +6,5 @@ type Props = {
 }
 
 export default function Home({ title = 'CREATE NEXT APP' }: Props) {
-  return (
-    <>
-      <main>
-        <h1>Hello, world!</h1>
-      </main>
-    </>
-  )
+  return <Main />
 }
