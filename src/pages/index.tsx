@@ -9,7 +9,7 @@ type Props = {
   title: string
 }
 
-export default function Home({title = "CREATE NEXT APP"}: Props) {
+export default function Home({ title = 'CREATE NEXT APP' }: Props) {
   return (
     <>
       <Head>
